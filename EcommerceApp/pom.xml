@@ -69,15 +69,15 @@
     </dependency>
   </dependencies>
 
-  <!-- ✅ Nexus Repositories (your repo names are used as IDs) -->
+  <!-- ✅ Nexus Repositories -->
   <repositories>
     <repository>
       <id>Release</id>
       <url>http://54.232.249.229:8081/repository/Release/</url>
     </repository>
     <repository>
-      <id>Snapshots</id>
-      <url>http://54.232.249.229:8081/repository/snapshots/</url>
+      <id>Snapshot</id>
+      <url>http://54.232.249.229:8081/repository/Snapshot/</url>
       <releases>
         <enabled>false</enabled>
       </releases>
@@ -94,8 +94,8 @@
       <url>http://54.232.249.229:8081/repository/Release/</url>
     </repository>
     <snapshotRepository>
-      <id>Snapshots</id>
-      <url>http://54.232.249.229:8081/repository/snapshots/</url>
+      <id>Snapshot</id>
+      <url>http://54.232.249.229:8081/repository/Snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
 
